@@ -4,8 +4,8 @@ function solution(n, t, m, p) {
   
   // 게임 회차별로 진수에 맞게 변환되서 내야할 숫자 범위(참가할 인원 * 튜브의 순서) 구하기
   let gameCount ='';
-  for(let i=0; i < m * t; i++){
-    gameCount += i.toString(n)
+  for(let number=0; i < m * t; i++){
+    gameCount += number.toString(n)
   }
 
   // 게임 회차에 따라 참여 인원이 내야할 값을 배열로 분류하기
